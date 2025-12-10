@@ -109,7 +109,7 @@ The project focuses on essential hardening tasks useful in enterprise environmen
 │   │       ├── 02_firewall.md
 │   │       ├── 03_auditd.md
 │   │       ├── 04_filesystem.md
-│   │       └── 99_summary.md
+│   │       └── 05_summary.md
 │   ├── 05_security_scan_results.md
 │   ├── references.md
 │   └── screenshots/
