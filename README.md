@@ -101,18 +101,42 @@ The project focuses on essential hardening tasks useful in enterprise environmen
 ```
 ├── README.md
 ├── docs/
-│   ├── 01_intro.md
+│   ├── 01_overview.md
 │   ├── 02_vm_setup.md
 │   ├── 03_baseline_scan.md
-│   ├── 04_hardening_steps.md
-│   ├── 05_firewall_config.md
-│   ├── 06_auditd_config.md
-│   ├── 07_security_scan_results.md
+│   ├── 04_hardening/
+│   │       ├── 01_ssh.md
+│   │       ├── 02_firewall.md
+│   │       ├── 03_auditd.md
+│   │       ├── 04_filesystem.md
+│   │       └── 99_summary.md
+│   ├── 05_security_scan_results.md
+│   ├── references.md
 │   └── screenshots/
-└── scripts/
-    ├── auditd_rules.sh
-    ├── harden_ssh.sh
-    └── install_tools.sh
+│           └── *.png
+├── scripts/
+│   ├── install_tools.sh
+│   ├── harden_ssh.sh
+│   ├── harden_firewall.sh
+│   ├── configure_auditd.sh
+│   └── scan_security.sh
+├── config/
+│   ├── auditd/
+│   │       └── rules.conf
+│   ├── firewall/
+│   │       └── ufw.conf (oder nftables/regeln.conf)
+│   └── ssh/
+│           └── sshd_config.example
+├── results/
+│   ├── baseline/
+│   │       └── *.txt
+│   ├── post_hardening/
+│   │       └── *.txt
+│   └── comparisons/
+│           └── diff_reports.txt
+├── .gitignore
+└── LICENSE
+
 ```
 
 Each file documents a specific part of the process so the entire hardening procedure is reproducible.
