@@ -121,14 +121,14 @@ Each file documents a specific part of the process so the entire hardening proce
 
 ## 5. Current Status
 
-* [x] VM created on UTM
-* [x] Fresh Linux installation completed
-* [x] Baseline system scan performed (Lynis)
-* [x] User & permission hardening
-* [x] SSH hardening and key-based auth
-* [x] Firewall configured
-* [x] auditd installed and rules applied
-* [x] Post-hardening scan completed
+* [ ] VM created on UTM
+* [ ] Fresh Linux installation completed
+* [ ] Baseline system scan performed (Lynis)
+* [ ] User & permission hardening
+* [ ] SSH hardening and key-based auth
+* [ ] Firewall configured
+* [ ] auditd installed and rules applied
+* [ ] Post-hardening scan completed
 * [ ] Final documentation polishing
 
 ---
